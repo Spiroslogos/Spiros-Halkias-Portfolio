@@ -1,9 +1,52 @@
-const projects = [{
-    image: 'EducationalProjectsHomeImages/robotproj.png',
-    link: 'Autonomous Robot Project/AutonomousRobotProject.html',
-    textone: 'Automonous Robot Project // December 6th, 2024',
-    texttwo: 'This robot project focused on designing, building, and programming an autonomous robot to navigate a modular maze. As a team we defined the problem, created designs, and developed custom components using CAD tools. The final robot successfully met project goals, demonstrating effective navigation and modularity. This project emphasized teamwork, problem-solving, and hands-on engineering experience.',
-    textthree: 'Size: 2 Person Group'
+const projects = [
+    {
+    image: 'EducationalProjectsHomeImages/MFC.png',
+    link: 'MFC//MFC.html',
+    textone: 'Microbial Fuel Cells // April 23rd, 2026',
+    texttwo: 'During Carbon Capture and Utilization class we learned about different methods of the three processes of carbon. The project tasked with students was to pick one of the three ways to mitigate carbon emissions with a technology of your choice. Microbial Fuels Cells in this scenario tackle the worker emissions from a predetermined ethylene oxide plant. Further reading is provided for improvements to this technology.',
+    textthree: 'Size: Solo'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/PCAI.png',
+    link: 'PC AI Center//PCAICenter.html',
+    textone: 'Power and Cooling for AI Data Centers // April 8th, 2026',
+    texttwo: 'This thermodynamics project works on a theoretical AI data center in Texas, where we try to power and cool a set amount of chips. The project is split into two groups, power and cooling, where we have to work together to optimize our processes to work together in order to power and cool the data center most efficiently. This project introduced us to Aspen, a chemical engineering software.',
+    textthree: 'Size: 8 Person Group'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/UOlab.png',
+    link: 'UO Lab Deliverable//UOLabDeliverable.html',
+    textone: 'UO Lab Deliverable // April 8th, 2026',
+    texttwo: 'This was a mini group project made to analyze data collected previously. For the class Transport Processes, the students visited the UO Lab at Northeastern University and collected data from various pipes and pumps. With this data a small project was done to show ability in collection and analyzation of the data. The visit was made to introduce students into the equipment that will be used in chemical engineering lab.',
+    textthree: 'Size: 9 Person Group'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/vikinggaldr.png',
+    link: 'Viking Galdr//VikingGaldr.html',
+    textone: 'Viking Galdr // December 5th, 2025',
+    texttwo: 'This was a project for an elective course on religious significance and history of music. Topics were researched and shared with the class throughout the semester. Projects include the sociocultural context, religious or spiritual significance, media, and more to showcase our findings. Additionally a sonic analysis was performed by each student. The final was separated into a paper, and a web document where our research was displayed online for our classmates to see.',
+    textthree: 'Size: Solo'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/greenmethanol.png',
+    link: 'Green Methanol//GreenMethanol.html',
+    textone: 'Green Methanol // December 3rd, 2025',
+    texttwo: 'Green Methanol was a conservation principles group project focused on the basic concepts of chemical engineering in order to prepare us for more advanced courses in the latter half of our studies. This project had two parts; a written report, and a presentation. Research throughout the semester was documented written up in the report, and displayed on the slide to show to the class.',
+    textthree: 'Size: 4 Person Group'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/waterfilter.png',
+    link: 'Attainable Water Filter//AttainableWaterFilter.html',
+    textone: 'Attainable Water Filter // April 10th, 2025',
+    texttwo: 'The attainable water filter was an engineering project focused on using advanced features of CAD tools and arduino. It builds on concepts developed in the Autonomous Robot Project, as well as reinforcing what we previously learned. This project addresses an ethical issue on sourcing clean water. Towards the end, each project was displayed convention style and showed off to the university.',
+    textthree: 'Size: 3 Person Group'
+    },
+    {
+    image: 'EducationalProjectsHomeImages/easyway.png',
+    link: 'EasyWay Innovation/EasyWayInnovation.html',
+    textone: 'EasyWay Innovation // December 11th, 2024',
+    texttwo: 'EasyWay was a team innovation project that required working with a team to learn to brainstorm, ideate, validate and confirm market viability for an innovation of our choice. This project allowed us to experience the stages of innovation, what is required, the process used and how to address barriers that might occur along the way. EasyWays innovation was a combination of other travel apps.',
+    textthree: 'Size: 5 Person Group'
     },
     {
     image: 'EducationalProjectsHomeImages/robotproj.png',
@@ -11,14 +54,7 @@ const projects = [{
     textone: 'Automonous Robot Project // December 6th, 2024',
     texttwo: 'This robot project focused on designing, building, and programming an autonomous robot to navigate a modular maze. As a team we defined the problem, created designs, and developed custom components using CAD tools. The final robot successfully met project goals, demonstrating effective navigation and modularity. This project emphasized teamwork, problem-solving, and hands-on engineering experience.',
     textthree: 'Size: 2 Person Group'
-    },
-    {image: 'EducationalProjectsHomeImages/robotproj.png',
-    link: 'Autonomous Robot Project/AutonomousRobotProject.html',
-    textone: 'Automonous Robot Project // December 6th, 2024',
-    texttwo: 'This robot project focused on designing, building, and programming an autonomous robot to navigate a modular maze. As a team we defined the problem, created designs, and developed custom components using CAD tools. The final robot successfully met project goals, demonstrating effective navigation and modularity. This project emphasized teamwork, problem-solving, and hands-on engineering experience.',
-    textthree: 'Size: 2 Person Group'
     }
-
 ];
 
 let projectsHTML = '';
