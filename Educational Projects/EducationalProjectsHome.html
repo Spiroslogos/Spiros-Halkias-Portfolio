@@ -17,16 +17,54 @@
             Educational Projects
         </p>
         <input type="text" class="searchinput-input" placeholder="Type to search...">
+
         <button class="filtering-button" id="accessfilter">
             Filter Projects
         </button>
-
-        <div class="filterMenu" id="dropdownfilter">
-             
-        </div>
     </div>
 
-    <div class="allboxes-div projectscontainer-js">
+    <div class="filterMenu" id="dropdownfilter">
+        <div class="flexfilter">
+            <div><p class="typebuttons-p">Hardware</p><input type="checkbox" class="typebuttons"></div>
+            <div><p class="typebuttons-p">Software</p><input type="checkbox" class="typebuttons"></div>
+            <div><p class="typebuttons-p">Research</p><input type="checkbox" class="typebuttons"></div>
+            <div><p class="typebuttons-p">Design</p><input type="checkbox" class="typebuttons"></div>
+            <div><p class="typebuttons-p">Writing</p><input type="checkbox" class="typebuttons"></div>
+            <div><p class="typebuttons-p"></p><input type="checkbox" class="typebuttons"></div>
+        </div>
+            
+        <p class="slidertitle"> Group Size </p>
+        <input type="range" min="0" max="10" value="1" class="slider" id="memberslider" list="sliderMarks">
+                <datalist id="sliderMarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+                <div class="sliderMarks">
+                    <span>All</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>  
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+        <button>Reset</button>
+    </div>
+
+    <div class="allboxes-div projectscontainer-js" id="projectscontainer">
     </div>
 
     <script src="EducationalProjectsHome.js"></script>
