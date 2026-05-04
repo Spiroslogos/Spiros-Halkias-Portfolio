@@ -83,7 +83,8 @@ document.getElementById('accessfilter').addEventListener('click', function() {
 
 let activeFilters = {
     memberNumber: 'all',
-    type: []
+    type: [],
+    search: ''
 }
 
     function ProjectFilter(){
@@ -96,7 +97,11 @@ let activeFilters = {
         ? project.type.some(temporaryvariable => activeFilters.type.includes(temporaryvariable))
         : activeFilters.type.includes(project.type))
 
-        return memberMatch && typeMatch;
+        const searchMatch = activeFilters.search === '' ||
+            project.textone.toLowerCase().includes(activeFilters.search)||
+            project.texttwo.toLowerCase().includes(activeFilters.search)
+
+        return memberMatch && typeMatch && searchMatch;
     })
 
     let filteredHTML = '';
@@ -147,13 +152,19 @@ document.querySelectorAll('.typebuttons').forEach(checkedbox => {
 document.querySelector('.resetbutton').addEventListener('click', function(){
     activeFilters.memberNumber = 'all'
     activeFilters.type = []
+    activeFilters.search = ''
 
     document.getElementById('memberslider').value = 0;
     document.querySelectorAll('.typebuttons').forEach(checkedbox => {
         checkedbox.checked = false
     })
+    document.querySelector('.searchinput-input').value = '';
     ProjectFilter()
 })
 
+document.querySelector('.searchinput-input').addEventListener('input', function(){
+    activeFilters.search = this.value.toLowerCase()
+    ProjectFilter();
+})
 
 ProjectFilter();
