@@ -27,7 +27,12 @@ iframe{
     width: 446px;
 }
 .image5{
+    margin-top: 20px;
     width: 350px;
+}
+.lastvideos{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .extrainfo-div{
     background-color: rgba(211, 209, 209, 0.70);
