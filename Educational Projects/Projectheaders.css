@@ -48,3 +48,32 @@ p{
 .bodytext-div{
     margin: 0px 200px 0px 200px;
 }
+.extrainfo-div{
+    background-color: rgba(211, 209, 209, 0.70);
+    justify-items: center;
+    align-content: center;
+    height: 250px;
+    margin-bottom: 25px;
+}
+.extrainfo-p{
+    width: 700px;
+    margin-top: -10px;
+    text-align: center;
+    font-style: italic;
+}
+.links{
+    font-family: Cairo;
+    line-height: 5px;
+    display: block;
+    text-align: center;
+    width: 700px;
+    color: rgba(43, 43, 43, 0.7);
+}
+img, iframe{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+iframe{
+    border-bottom-width: 3px;
+}

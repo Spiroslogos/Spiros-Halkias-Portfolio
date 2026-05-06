@@ -1,0 +1,41 @@
+.quotes-p{
+    font-style: italic;
+}
+.splitcontainer-div{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: -20px;
+}
+.insplit{
+    margin: -20px 0px 0px 20px;
+}
+.stretchimage{
+    height: 280px;
+}
+.shrinkimage{
+    width: 550px;
+    margin-bottom: 20px;
+}
+.insplitleft{
+    margin: -20px 20px 20px 0px;
+}
+.shrinkimage2{
+    height: 344px;
+    margin-bottom: 40px;
+    justify-self: right;
+}
+.sideimages{
+    display: flex;
+    gap: 0px;
+}
+.shrinkimage3{
+    width: 550px;
+}
+.removeimageborder{
+    border-right-width: 0px;
+}
+.extrainfo-p{
+    margin-top: -100px;
+    margin-bottom: 50px;
+    
+}

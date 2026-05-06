@@ -5,7 +5,7 @@ p{
 .header-div{
     display: flex;
     background-color: rgba(211, 209, 209, 0.70);
-    font-size: 35px;
+    font-size: 38px;
     border-style: solid;
     border-radius: 3px;
     width: 800px;
@@ -41,7 +41,7 @@ button img {
     width: 100%;
     height: 100%;
     position: absolute; /*positions based on relative component*/
-    border-radius: 20px;
+    border-radius: 18px;
     top: 0;
     left: 0;
     object-fit: cover; /*img fills box, crops image*/
@@ -54,7 +54,7 @@ button img {
     padding: 8px;
     margin: 0px;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 20px;
     border-width: 3px;
     border-style: solid;
 }
