@@ -1,0 +1,36 @@
+.intro-p{
+    font-style: italic;
+}
+.titles-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sideimages{
+    display: flex;
+    gap: 0px;
+}
+.shrinkimage1{
+    height: 350px;
+    width: 700px;
+}
+.shrinkimage2{
+    height: 350px;
+    width: 700px;
+}
+.shrinkimage3{
+    width: 400px;
+}
+.shrinkimage4{
+    width: 400px;
+    height: 350px;
+}
+.shrinkimage{
+    width: 550px;
+}
+.removeimageborder{
+    border-right-width: 0px;
+}
+.extrainfo-p{
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
