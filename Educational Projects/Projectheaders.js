@@ -3,5 +3,5 @@ document.getElementById('accesshome').addEventListener('click', function() {
 });
 
 document.getElementById('accessprojects').addEventListener('click', function() {
-    window.location.href = "../EducationalProjectsHome.html"
+    window.location.href = "../ProfessionalPathHome.html"
 });

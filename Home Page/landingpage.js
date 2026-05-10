@@ -1,5 +1,5 @@
 document.getElementById('edubutton').addEventListener('click', function() {
-    window.location.href = "../Educational Projects/EducationalProjectsHome.html"
+    window.location.href = "../Professional Path/ProfessionalPathHome.html"
     })
 //finds the thing with class 'edubutton' in the entire document
 //waits until (button is clicked) then does function
@@ -7,7 +7,7 @@ document.getElementById('edubutton').addEventListener('click', function() {
 //leaves current folder, goes into edu proj folder, opens new HTML
 
 document.getElementById('recbutton').addEventListener('click', function() {
-    window.location.href = "../Recreational Projects/RecreationalProjectsHome.html"
+    window.location.href = "../Personal Path/PersonalPathHome.html"
     })
 
 document.getElementById('expbutton').addEventListener('click', function() {
