@@ -74,7 +74,7 @@ const projects = [
 ];
 
 document.getElementById('accesshome').addEventListener('click', function() {
-    window.location.href = "../Home Page/landingpage.html"
+    window.location.href = "../../Home Page/landingpage.html"
 });
 
 document.getElementById('accessfilter').addEventListener('click', function() {
