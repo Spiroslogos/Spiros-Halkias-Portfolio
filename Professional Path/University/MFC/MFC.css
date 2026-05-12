@@ -57,3 +57,55 @@
     border-width: 1px 1px 1px 1px;
     border-style: solid;
 }
+
+.table-fourcolumn2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.table-fourcolumn2 p{
+    align-content: center;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+}
+.table-fourcolumn2 p.bottomtable-p{
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+}
+.table-fourcolumn2 p.righttable-p{
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+}
+.table-fourcolumn2 p.bottomtable-p.righttable-p {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+
+.table-fivecolumn{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.table-fivecolumn p{
+    align-content: center;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+}
+.table-fivecolumn p.bottomtable-p{
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+}
+.table-fivecolumn p.righttable-p{
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+}
+.table-fivecolumn p.bottomtable-p.righttable-p {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}

@@ -98,6 +98,105 @@
         <p class="caption-p">Equation 1. Annual footprint per worker per year</p>
         <p>At a hypothetical 250 worker plant, the total annual worker footprint is 1,722 MT CO2/year, roughly 0.80% of the plant’s process emissions, which is a measurable target for the MFC system.</p>
         <p class="titles-p">Mass Flow of Wastewater Through the MFC</p>
+        <p>
+            The MFC system is designed to receive and process all worker generated sanitary wastewater on site. The following mass flow balance establishes the substrate input and the resulting energy and CO2 offset per worker per day.
+        </p>
+        <p class="caption-p">
+            Volume wastewater = 180L/worker/day = 0.18m^3/worker/day
+        </p>
+        <p class="caption-p">
+            COD in = Volume wasterwater * COD concentration = 0.18m^3 * 300 g/m^3 = 54 g COD/worker/day
+        </p>
+        <p class="caption-p">
+            COD removed = 0.054 * 0.80 = 0.0432 kg COD/worker/day
+        </p>
+        <p class="caption-p">
+            Energy recovered = 0.36 kWh/kg COD * 0.0432 = 0.1555 kWh/worker/day
+        </p>
+        <p class="caption-p">
+            CO2 avoided by grid displacement = 0.01555 * 0.371 = 0.005769050 kg CO2/worker/day
+        </p>
+        <p class="caption-p">
+            CO2 wastewater avoided = 0.18m^3 * 0.344 kg CO2/m^3 = 0.06192 kg/CO2/worker/day
+        </p>
+        <p class="caption-p">
+            CO2 water avoided = 0.18m^3 *0.46 kg CO2/m^3 = 0.08280 kg/CO2/worker/day
+        </p>
+        <p class="caption-p">
+            Sludge CAS = 0.0432 *0.6 = 0.0259 ks VS/day
+        </p>
+        <p class="caption-p">
+            Sludge MFC = 0.432 * 0.1 = 0.0043 kg VS/day
+        </p>
+        <p class="caption-p">
+            CO2 avoided from sludge = (0.0259-0.0043) * 0.12 kg CO2 = 0.0026 kg CO2/worker/day
+        </p>
+        <p class="caption-p">Equations.2 Mass balance operations</p>
+        <div class="table-fourcolumn2">
+            <p class="titles-p">MFC Benefit</p><p class="titles-p">Basis</p><p class="titles-p">Value</p><p class="righttable-p titles-p">Kg CO2 avoided/day</p>
+            <p>Wastewater</p><p>0.36 kWh/kg COD * 0.0432 kg/day</p><p>0.01555 kWh/day</p><p class="righttable-p">0.011</p>
+            <p>Clean Water</p><p>0.46 kg CO2/m^3 * 0.18 m^3</p><p>0.46 kg CO2/m^3</p><p class="righttable-p">0.083</p>
+            <p>Reduced Sludge</p><p>75% less ; 0.12 kg CO2/kg VS</p><p>-75%</p><p class="righttable-p">0.003</p>
+            <p class="bottomtable-p">Total offset per worker per day</p><p class="bottomtable-p"></p><p class="bottomtable-p"></p><p class="bottomtable-p righttable-p">0.159</p>
+        </div>
+        <p class="caption-p">Table 3. MFC CO2 offsets per worker per day</p>
+        <p>
+            The total MFC offset is approximately 0.159 kg CO2 per day per worker. This translates to 58.1 kg CO2 per year per worker, assuming continuous MFC operation for wastewater treatment.
+        </p>
+        <p class="titles-p">Chemical Reaction Mechanism</p>
+        <p>
+            At the MFC anode, microorganisms oxidize organic substrate under anaerobic conditions. Modelling glucose as a representation included in COD, gives us the anode reaction.
+        </p>
+        <p class="caption-p">Anode: C6H12O6 + 6H2O -> 6CO2 + 24H+ + 24E-</p>
+        <p>
+            Electrons produced at the anode are transferred to the electrode surface, either directly via a mediatorless species or through soluble redox mediators. Then they are channeled through the external circuit to generate electrical current. Protons migrate through the permeable membrane to the cathode chamber, where molecular oxygen acts as the terminal electron acceptor.
+        </p>
+        <p class="caption-p">Cathode: O2 + 4H+ + 4E- -> 2H2O</p>
+        <p>
+            The overall cell reaction represents the complete mineralization of organic substrate.
+        </p>
+        <p class="caption-p">Overall = C6H12O6 + 6O2 -> 6CO2 + 6H2O + electrical energy</p>
+        <p>
+            Most importantly, CO2 produced at the anode is biogenic, derived from organic matter in domestic wastewater, not from fossilized carbon. Under standard IPCC accounting, biogenic CO2 is not counted as a net atmospheric addition, which is a fundamental thermodynamic and accounting advantage for MFC treatment. The theoretical open circuit voltage of the MFC is determined by the standard reduction potentials of the anode as follows.
+        </p>
+        <p class="caption-p">E Cell = E Cathode - E Anode = 0.82 - -0.32 = 1.14 V</p>
+        <p>
+            In practice, resistance of the membrane, activation overpotentials at both electrodes, and mass transfer limitations reduce the operating cell voltage to approximately 0.3-0.5 V. The Coulombic efficiency (fraction of COD electrons captured as current) is 24.8% in the base case, consistent with pilot scale data from the 200 L MFC treatment facility.
+        </p>
+        <p class="titles-p">Per Worker Comparison</p>
+        <p>
+            The per worker daily CO2 footprint of 22.13 kg CO2/day consists mainly of commuting and food consumption totaling over 70% of emissions. The MFC offset of 0.159 kg CO2/day represents just under 0.80% of each worker's daily footprint under base conditions. While this is a very modest fraction, it reflects the fundamental constraint that the MFC treats only one emission source, that being wastewater. Its value lies in being fully automatic, requiring no behavioral change, and delivering clean water and electricity as co-products that have direct economic value to the plant.
+        </p>
+        <p class="titles-p">Analysis and Viability</p>
+        <p>
+            The table below consists of an analysis across MFC performance scenarios and includes scenarios in which the MFC also treats a fraction of the ethylene oxide process wastewater. This remains realistic because the scrubber and desorber units in the plant produce high COD aqueous streams.
+        </p>
+        <div class="table-fivecolumn">
+            <p class="titles-p">Scenario</p><p class="titles-p">NER in kWh/kg COD</p><p class="titles-p">Offset/worker in kg CO2/day</p><p class="titles-p">Workers for 1 MT CO2/yr</p><p class="righttable-p titles-p">% Worker footprint offset</p>
+            <p>Current lab</p><p>0.13</p><p>0.098</p><p>28</p><p class="righttable-p">0.44%</p>
+            <p>Base case</p><p>0.36</p><p>0.159</p><p>17</p><p class="righttable-p">0.72%</p>
+            <p>Pilot + CO2 cathode</p><p>0.63</p><p>0.31</p><p>9</p><p class="righttable-p">1.40%</p>
+            <p class="bottomtable-p">Full scope + process wastewater</p><p class="bottomtable-p">0.63</p><p class="bottomtable-p">4.20</p><p class="bottomtable-p">1</p><p class="bottomtable-p righttable-p">19%</p>
+        </div>
+        <p class="caption-p">Table 4. MFC analysis</p>
+        <p>
+            Here you will see the calculations done for the current lab to better understand how each of these numbers are calculated.
+        </p>
+        <p class="caption-p">COD removed per worker= 0.18m^3/day * 300g/m^3 * 0.80 removal = 0.0432 kg COD/day</p>
+        <p class="caption-p">Electricity generated = 0.0432 kg COD * 0.13 kWh/kg COD = 0.00562 kWh/day</p>
+        <p class="caption-p">CO2 avoided from grid displacement = 0.00562 * 0.725 kg CO2/kWh = 0.00407 kg CO2/day</p>
+        <p class="caption-p">CO2 avoided from wastewater treatment = 0.18m^3 * 0.344 kg CO2/m^3 = 0.0619 kg CO2/day</p>
+        <p class="caption-p">CO2 avoided from water recovery = 0.18m^3 * 0.46 kg CO2/m^3 = 0.0828 kg CO2/day</p>
+        <p class="caption-p">CO2 avoied from sludge = 0.0026 kg CO2/day</p>
+        <p class="caption-p">Total offset = 0.00407 + 0.0619 + 0.0828 + 0.0026 = 0.1514 (0.098 kg CO2/day)</p>
+        <p class="caption-p">1 MT CO2/year = 1000kg/year / 365 days = 2.74 kg CO2/day needed</p>
+        <p class="caption-p">2.74/0.098 = 28 Workers</p>
+        <p class="caption-p">0.098/22.13 = 0.44%</p>
+        <p>
+            Under base conditions, a plant with as few as 17 workers could offset 1 MT CO2/year through the MFC, a very low threshold that can feasibly be met by the facilities workforce. At 250 workers, the base case MFC offsets about 14.5 MT CO2/year. The NER is the most impactful variable for this analysis. As you move higher from the current lab, a more conservative approach, to the full scope, the offset increases greatly. Incorporating ethylene oxide wastewater into the MFC elevates the offset to 4.20 kg CO2/worker/day, because the process streams are higher in COD and far larger in volumetric flow.
+        </p>
+        <p class="titles-p">Performance summary</p>
+
 
     <div class="extrainfo-div">
             <p class="extrainfo-p">The following are links to assignments throughout this entire project. Keep in mind not everything is covered in this portfolio section and the assignments are here for reference.
