@@ -1,12 +1,13 @@
 .course-holder{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
+
 }
 .course-container{
     background-color: rgba(211, 209, 209, 0.70);
-    width: 500px;
-    height: 125px;
+    width: 490px;
+    height: 145px;
     border-radius: 25px;
     display: inline-block;
 }
