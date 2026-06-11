@@ -1,0 +1,26 @@
+.course-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.course-container{
+    background-color: rgba(211, 209, 209, 0.70);
+    width: 500px;
+    height: 125px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.textone-p{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 10px 10px 10px;
+}
+.texttwo-p{
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+}
+.textthree-p{
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    font-style: italic;
+}

@@ -1,5 +1,14 @@
 const projects = [
     {
+    image:'',
+    link:'University Courses/UniversityCourses.html',
+    textone:'University Courses',
+    texttwo:'In this section, I have included each class I have taken throughout university.',
+    textthree:'',
+    memberNumber: [0,1,2,3,4,5,6,7,8,9,10],
+    type:['Hardware', 'Software', 'Research', 'Design', 'Writing', 'Business']
+    },
+    {
     image: 'University Images/MFC.png',
     link: 'MFC/MFC.html',
     textone: 'Microbial Fuel Cells // April 23rd, 2026',
@@ -107,8 +116,27 @@ let activeFilters = {
     let filteredHTML = '';
 
     filtered.forEach((projects) => {
-        filteredHTML += 
-        `<div class="projectbox-div">
+        let card = ''
+        if (projects.textone === 'University Courses'){
+            card = `<div class="projectbox-div">
+            <div class="imgbutton-div">
+                <img class="imgbutton-img" src="${projects.image}">
+                <button class="imgbutton-button" onclick="window.location.href = '${projects.link}'">
+                    View Courses
+                </button>
+            </div>
+            <div class="text-div">
+                <p class="textone-p">
+                    ${projects.textone}
+                </p>
+                <p class="texttwo-p">
+                    ${projects.texttwo}
+                </p>
+            </div>
+        </div>`;
+        }
+        else{
+        card = `<div class="projectbox-div">
             <div class="imgbutton-div">
                 <img class="imgbutton-img" src="${projects.image}">
                 <button class="imgbutton-button" onclick="window.location.href = '${projects.link}'">
@@ -127,6 +155,8 @@ let activeFilters = {
                 </p>
             </div>
         </div>`;
+        }
+        filteredHTML += card
     });
 
     document.getElementById('projectscontainer').innerHTML = filteredHTML
