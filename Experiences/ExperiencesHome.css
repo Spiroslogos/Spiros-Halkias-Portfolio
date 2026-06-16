@@ -101,3 +101,22 @@ p{
 .italictext{
     font-style: italic;
 }
+.shows-div{
+    width: 500px;
+    display: inline-block;
+}
+.shows-div p:is(.italictext) {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.library-div{
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+}
+.containing-div{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+}
+.indent-div{
+    margin: 0px 0px 0px 25px;
+}
