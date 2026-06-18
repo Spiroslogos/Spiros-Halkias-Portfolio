@@ -11,7 +11,7 @@ document.getElementById('recbutton').addEventListener('click', function() {
     })
 
 document.getElementById('expbutton').addEventListener('click', function() {
-    window.location.href = "../Experiences/ExperiencesHome.html"
+    window.location.href = "../Blog/Blog.html"
     })
 
 document.getElementById('abtbutton').addEventListener('click', function() {

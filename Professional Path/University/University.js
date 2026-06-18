@@ -1,6 +1,6 @@
 const projects = [
     {
-    image:'',
+    image:'University Images/courses.png',
     link:'University Courses/UniversityCourses.html',
     textone:'University Courses',
     texttwo:'In this section, I have included each class I have taken throughout university.',
