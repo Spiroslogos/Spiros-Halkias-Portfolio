@@ -11,3 +11,9 @@ document.getElementById('togglegallerygreece').addEventListener('click', functio
 document.getElementById('togglegallerygreece2').addEventListener('click', function() {
     document.getElementById('gallerygreece').classList.toggle('galleryshow')
 });
+document.getElementById('accesshome').addEventListener('click', function() {
+    window.location.href = "../Home Page/landingpage.html"
+});
+document.getElementById('accesshome2').addEventListener('click', function() {
+    window.location.href = "../Home Page/landingpage.html"
+});

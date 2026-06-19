@@ -17,3 +17,7 @@ document.getElementById('expbutton').addEventListener('click', function() {
 document.getElementById('abtbutton').addEventListener('click', function() {
     window.location.href = "../About Me/AboutMeHome.html"
     })
+
+document.getElementById('infobutton').addEventListener('click', function() {
+    document.getElementById('infoinfo').classList.toggle('buttonshow')
+});
