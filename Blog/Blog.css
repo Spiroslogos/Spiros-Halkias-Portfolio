@@ -16,7 +16,7 @@ p{
     margin-bottom: 25px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 800;
 }
 .homebutton-button{
     width: 225px;
@@ -88,7 +88,7 @@ p{
     left: 0px;
     bottom: 0px;
     right: 0px;
-    z-index: 3;
+    z-index: 999;
     padding: 25px;
     background-color: white;
     box-sizing: border-box;
@@ -158,4 +158,8 @@ p{
 }
 .indent-div{
     margin: 0px 0px 0px 25px;
+}
+.memorydiv{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
 }
