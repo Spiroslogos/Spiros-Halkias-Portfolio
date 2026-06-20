@@ -21,3 +21,12 @@ document.getElementById('abtbutton').addEventListener('click', function() {
 document.getElementById('infobutton').addEventListener('click', function() {
     document.getElementById('infoinfo').classList.toggle('buttonshow')
 });
+document.getElementById('infobutton').addEventListener('click', function() {
+    document.getElementById('infoinfo2').classList.toggle('buttonshow2')
+});
+document.getElementById('infobutton').addEventListener('click', function() {
+    document.getElementById('infoinfo3').classList.toggle('buttonshow3')
+});
+document.getElementById('infobutton').addEventListener('click', function() {
+    document.getElementById('infoinfo4').classList.toggle('buttonshow4')
+});

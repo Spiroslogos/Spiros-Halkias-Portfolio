@@ -2,6 +2,9 @@ p{
     font-family: cairo;
     line-height: 25px;
 }
+.text{
+    font-family: cairo;
+}
 .filteringheader-div{
     background-color: rgba(217, 216, 216, 1);
     font-size: 35px;
@@ -58,4 +61,20 @@ p{
     cursor: pointer;
     font-size: 35px;
 }
-
+.hideresume{
+    display: none;
+}
+.resumeshow{
+    display: block;
+}
+.resumetoggler{
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    background-color: rgba(211, 209, 209, 0.70);
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
