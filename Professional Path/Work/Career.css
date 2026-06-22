@@ -1,9 +1,13 @@
 p{
     font-family: cairo;
-    line-height: 25px;
+    line-height: 15px;
 }
 .text{
     font-family: cairo;
+}
+.work{
+    line-height: 5px;
+    margin-bottom: 10px;
 }
 .filteringheader-div{
     background-color: rgba(217, 216, 216, 1);
@@ -36,4 +40,24 @@ p{
 .titlepagetext-p{
     justify-self: center;
     font-size: 35px;
+}
+.italictext{
+    font-style: italic;
+}
+.boldtext{
+    font-weight: bold;
+}
+.pagetimeline{
+    margin: 0px 400px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 5fr;
+}
+.theline{
+    height: 725px;
+    border-left: solid 5px;
+}
+.connection{
+    border-top: solid 5px;
+    z-index: 1000;
+    font-size: 50px;
 }
