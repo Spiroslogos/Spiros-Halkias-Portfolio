@@ -80,7 +80,7 @@ const courses = [
     value:'Chemical Engineering Curriculum'
     },
     {
-    name:'Lab for Physics for Engineernig 2 1156',
+    name:'Lab for Physics for Engineering 2 1156',
     obtain:'Northeastern University',
     value:'Chemical Engineering Curriculum'
     },

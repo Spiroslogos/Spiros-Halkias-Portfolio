@@ -3,7 +3,7 @@ const projects = [
     image:'University Images/courses.png',
     link:'University Courses/UniversityCourses.html',
     textone:'University Courses',
-    texttwo:'In this section, I have included each class I have taken throughout university.',
+    texttwo:'In this section, includes each class I have taken throughout university.',
     textthree:'',
     memberNumber: [0,1,2,3,4,5,6,7,8,9,10],
     type:['Hardware', 'Software', 'Research', 'Design', 'Writing', 'Business']
