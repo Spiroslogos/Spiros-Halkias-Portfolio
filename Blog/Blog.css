@@ -127,7 +127,7 @@ p{
     height: 100%;
 }
 p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cairo;
     font-size: 16px;
     line-height: 4px;
 }
@@ -180,4 +180,68 @@ p{
 .mimg3{
     width: 400px;
     height: auto;
+}
+.mtgimg{
+    object-fit: contain;
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    border-width: 2px;
+    border-style: solid;
+}
+.mtg-button{
+    padding: 0px;
+    width: 300px;
+    height: 418px;
+    display: block;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+}
+.mtg-imggallery{
+    opacity: 0.5;
+    position: absolute;
+    width: 297px;
+    height: 415px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+.underline{
+    width: 300px;
+    margin-left: 5px;
+    padding-bottom: 15px;
+    border-radius: 2px;
+    border-bottom: solid;
+}
+.mtgimgbuttonhome{
+    opacity: 0.5;
+    position: absolute;
+    width: 297px;
+    height: 415px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    object-position: left;
+    object-fit: cover;
+}
+.mtglayout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.mtgbuttonhome{
+    width: 300px;
+    height: 418px;
+    display: block;
+    padding: 0px;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
 }
