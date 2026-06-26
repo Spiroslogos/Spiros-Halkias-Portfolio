@@ -60,6 +60,7 @@ p{
     border-radius: 25px;
     cursor: pointer;
     font-size: 35px;
+    position: relative;
 }
 .hideresume{
     display: none;
@@ -77,4 +78,26 @@ p{
     border-radius: 25px;
     cursor: pointer;
     margin-bottom: 15px;
+}
+.imgbutton{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 50%;
+}
+.buttontext-p{
+    position: absolute;
+    top: center;
+    justify-self: center;
+    background-color: rgba(211, 209, 209, 0.80);
+    padding: 13px;
+    margin: 0px;
+    border-radius: 3px;
+    font-size: 35px;
+    border-width: 3px;
+    border-style: solid;
 }
