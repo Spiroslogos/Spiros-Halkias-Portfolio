@@ -22,3 +22,15 @@ document.getElementById('togglegallerymtg').addEventListener('click', function()
 document.getElementById('togglegallerymtg2').addEventListener('click', function(){
     document.getElementById('gallerymtg').classList.toggle('galleryshow')
 })
+document.getElementById('togglegalleryspain').addEventListener('click', function(){
+    document.getElementById('galleryspain').classList.toggle('galleryshow')
+})
+document.getElementById('togglegalleryspain2').addEventListener('click', function(){
+    document.getElementById('galleryspain').classList.toggle('galleryshow')
+})
+document.getElementById('togglegalleryportugal').addEventListener('click', function(){
+    document.getElementById('galleryportugal').classList.toggle('galleryshow')
+})
+document.getElementById('togglegalleryportugal2').addEventListener('click', function(){
+    document.getElementById('galleryportugal').classList.toggle('galleryshow')
+})
