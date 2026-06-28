@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){ //run before everything loads
+/*document.addEventListener('DOMContentLoaded', function(){ //run before everything loads
     const images = document.querySelectorAll("img");
 
     images.forEach((img) =>{
@@ -7,3 +7,4 @@ document.addEventListener('DOMContentLoaded', function(){ //run before everythin
         }
     });
 });
+*/
