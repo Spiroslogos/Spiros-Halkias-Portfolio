@@ -120,7 +120,7 @@ let activeFilters = {
         if (projects.textone === 'University Courses'){
             card = `<div class="projectbox-div">
             <div class="imgbutton-div">
-                <img class="imgbutton-img" src="${projects.image}">
+                <img class="imgbutton-img" data-src="${projects.image}">
                 <button class="imgbutton-button" onclick="window.location.href = '${projects.link}'">
                     View Courses
                 </button>
@@ -138,7 +138,7 @@ let activeFilters = {
         else{
         card = `<div class="projectbox-div">
             <div class="imgbutton-div">
-                <img class="imgbutton-img" src="${projects.image}">
+                <img class="imgbutton-img" data-src="${projects.image}">
                 <button class="imgbutton-button" onclick="window.location.href = '${projects.link}'">
                     View Project
                 </button>
