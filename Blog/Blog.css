@@ -2,6 +2,10 @@ p{
     font-family: cairo;
     line-height: 25px;
 }
+.text{
+    font-family: cairo;
+    line-height: 25px;
+}
 .filteringheader-div{
     background-color: rgba(217, 216, 216, 1);
     font-size: 35px;
