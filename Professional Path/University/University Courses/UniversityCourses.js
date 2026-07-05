@@ -5,7 +5,7 @@ const courses = [
     value:'Chemical Engineering Curriculum'
     },
     {
-    name:'Organic Chemistry 2313',
+    name:'Organic Chemistry 2 2313',
     obtain:'Northeastern University',
     value:'Chemical Engineering Curriculum'
     },

@@ -6,6 +6,9 @@ p{
     font-family: cairo;
     line-height: 25px;
 }
+.lineheight-div{
+    margin-bottom: -10px;
+}
 .filteringheader-div{
     background-color: rgba(217, 216, 216, 1);
     font-size: 35px;
