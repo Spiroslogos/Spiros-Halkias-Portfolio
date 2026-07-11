@@ -8,3 +8,11 @@ document.addEventListener('DOMContentLoaded', function(){ //run before everythin
     });
 });
 
+document.body.style.minWidth = '1200px'; //minwidth, doesnt shrink
+
+if (!document.querySelector('meta[name="viewport"]')) { //also for larger screens it gets scaled
+    const meta = document.createElement('meta');
+    meta.name = 'viewport';
+    meta.content = 'width=device-width, initial-scale=1.0';
+    document.head.appendChild(meta);
+}
