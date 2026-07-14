@@ -1,0 +1,6 @@
+.Image_Display-img{
+    border-style: solid;
+    border-width: 2px;
+    object-fit: cover;
+    margin: 15px 0px 15px 0px;
+}

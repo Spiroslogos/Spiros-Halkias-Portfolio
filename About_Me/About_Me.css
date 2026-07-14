@@ -1,0 +1,29 @@
+p{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+    vertical-align: top;
+}
+.Shrink_Sides-div{
+    margin: 25px 225px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Left_Image-img{
+    width: 500px;
+    height: auto;
+}
+.Right_Image-img{
+    width: 525px;
+    height: auto;
+    margin-top: -62px;
+}
+.Two_Row-div{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.Links-a{
+    color: black;
+    font-family: cairo;
+}

@@ -1,0 +1,5 @@
+.Hidden-div{
+    z-index: 999;
+    position: absolute;
+    display: none;
+}
