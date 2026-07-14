@@ -1,24 +1,15 @@
-document.getElementById('edubutton').addEventListener('click', function() {
+document.getElementById('Professional_Work_Button').addEventListener('click', function() {
     window.location.href = "../Professional_Work/Professional_Work.html"
-    })
-//finds the thing with class 'edubutton' in the entire document
-//waits until (button is clicked) then does function
-//the current URL of the window, set that to = edu projects screen
-//leaves current folder, goes into edu proj folder, opens new HTML
-
-document.getElementById('recbutton').addEventListener('click', function() {
+})
+document.getElementById('Personal_Projects_Button').addEventListener('click', function() {
     window.location.href = "../Personal_Projects/Personal_Projects.html"
-    })
-
-document.getElementById('expbutton').addEventListener('click', function() {
+})
+document.getElementById('Photo_Blog_Button').addEventListener('click', function() {
     window.location.href = "../Photo_Blog/Photo_Blog.html"
-    })
-
-document.getElementById('abtbutton').addEventListener('click', function() {
+})
+document.getElementById('About_Me_Button').addEventListener('click', function() {
     window.location.href = "../About_Me/About_Me.html"
-    })
-
-
+})
 document.getElementById('Info_Button').addEventListener('click', function() {
     document.getElementById('Info_Info1').classList.toggle('Show_Button1')
     document.getElementById('Info_Info1').classList.toggle('Unhidden-div')
