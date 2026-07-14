@@ -36,3 +36,10 @@ p{
     font-family: cairo;
     margin-top: 40px;
 }
+.entirepage{
+    margin: 0px 200px;
+}
+.img1{
+    height:500px;
+    width:auto;
+}
