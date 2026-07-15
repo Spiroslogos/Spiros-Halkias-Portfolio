@@ -2,76 +2,22 @@ p{
     font-family: cairo;
     line-height: 25px;
 }
-.text{
-    font-family: cairo;
-}
-.filteringheader-div{
-    background-color: rgba(217, 216, 216, 1);
-    font-size: 35px;
-    border-width: 0px;
-    width: 100%;
-    height: 95px;
-    margin-top: -10px;
-    padding: 0px 8px;
-    justify-self: center;
-    display: grid;
-    grid-template-columns: 2fr 5fr 2fr;
-    margin-bottom: 25px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-.homebutton-button{
-    width: 225px;
-    height: 75px;
-    justify-self: center;
-    align-self: center;
-    justify-content: center;
-    font-size: 25px;
-    font-style: italic;
-    background-color: rgba(211, 209, 209, 0);
-    border-width: 0px;
-    cursor: pointer;
-}
-.titlepagetext-p{
-    justify-self: center;
-    font-size: 35px;
-}
-
-.tophalfmain-div{
+.Button_Half-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     height: 350px;
-    width: auto;
 }
-.bottomhalfmain-div{
-    height: 350px;
-    width: auto;
+.Transparency{
+    opacity: 50%;
 }
-.mainpagebuttons{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(211, 209, 209, 0.70);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 35px;
-    position: relative;
+.Text_Center-p{
+    padding: 13px;
+    font-size: 30px;
+    margin: 135px 0px;
 }
-.hideresume{
-    display: none;
-}
-.resumeshow{
-    display: block;
-}
-.resumetoggler{
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
+.Resume_Button-button{
+    border-style: solid;
     height: 40px;
     width: 140px;
     background-color: rgba(211, 209, 209, 0.70);
@@ -79,25 +25,12 @@ p{
     cursor: pointer;
     margin-bottom: 15px;
 }
-.imgbutton{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    border-radius: 18px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    opacity: 50%;
+.Links-p{
+    font-family: cairo;
+    display: inline-block;
 }
-.buttontext-p{
-    position: absolute;
-    top: center;
-    justify-self: center;
-    background-color: rgba(211, 209, 209, 0.80);
-    padding: 13px;
-    margin: 0px;
-    border-radius: 3px;
-    font-size: 35px;
-    border-width: 3px;
-    border-style: solid;
+.Resume_Size{
+    width: 100%;
+    height: 1121px;
+    position: relative;
 }

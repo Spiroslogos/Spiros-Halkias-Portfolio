@@ -44,14 +44,6 @@ p{
     border-width: 3px;
     border-style: solid;
 }
-.Caption_Button_Text-p{
-    position: absolute;
-    top: 10px;
-    padding: 8px;
-    margin: 0px;
-    font-size: 20px;
-    justify-self: center;
-}
 .Name_Header-div{
     display: flex;
     font-size: 38px;
