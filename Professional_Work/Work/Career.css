@@ -1,63 +1,28 @@
 p{
     font-family: cairo;
     line-height: 15px;
+    margin-bottom: 10px;
 }
-.text{
-    font-family: cairo;
-}
-.work{
+.Close_Text-p{
     line-height: 5px;
     margin-bottom: 10px;
 }
-.filteringheader-div{
-    background-color: rgba(217, 216, 216, 1);
-    font-size: 35px;
-    border-width: 0px;
-    width: 100%;
-    height: 95px;
-    margin-top: -10px;
-    padding: 0px 8px;
-    justify-self: center;
-    display: grid;
-    grid-template-columns: 2fr 5fr 2fr;
-    margin-bottom: 25px;
-    position: sticky;
-    top: 0;
+.Line_Connection-div{
+    border-top: solid 5px;
     z-index: 1000;
+    font-size: 50px;
 }
-.homebutton-button{
-    width: 225px;
-    height: 75px;
-    justify-self: center;
-    align-self: center;
-    justify-content: center;
-    font-size: 25px;
-    font-style: italic;
-    background-color: rgba(211, 209, 209, 0);
-    border-width: 0px;
-    cursor: pointer;
-}
-.titlepagetext-p{
-    justify-self: center;
-    font-size: 35px;
-}
-.italictext{
-    font-style: italic;
-}
-.boldtext{
-    font-weight: bold;
-}
-.pagetimeline{
+.Timeline-div{
     margin: 0px 400px;
     display: grid;
     grid-template-columns: 4fr 1fr 5fr;
 }
-.theline{
+.Center_Line-div{
     height: 725px;
     border-left: solid 5px;
 }
-.connection{
-    border-top: solid 5px;
-    z-index: 1000;
-    font-size: 50px;
+.Bullet_Points{
+    font-family: cairo;
+    line-height: 20px;
+    margin-left: -25px;
 }
