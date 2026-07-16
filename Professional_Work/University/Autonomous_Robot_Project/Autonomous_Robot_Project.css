@@ -1,28 +1,27 @@
-.caption-p{
+.Caption_Margin-p{
     display: inline-block;
-    font-style: italic;
     margin-right: 500px;
 }
-.image2{
+.Resize1-img{
     width: 400px;
 }
-.splitcontainer-div{
+.Two_Column-div{
     display: grid;
     grid-template-columns: auto auto;
 }
-.insplit{
+.Column2-div{
     display: inline-block;
     width: auto;
     margin: -20px 0px 0px 20px;
 }
-.image4{
+.Resize2-img{
     width: 446px;
 }
-.image5{
+.Resize3-img{
     margin-top: 20px;
     width: 350px;
 }
-.lastvideos{
+.Final_Videos-iframe{
     margin-top: 10px;
     margin-bottom: 10px;
 }
