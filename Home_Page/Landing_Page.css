@@ -43,6 +43,7 @@ p{
     border-radius: 25px;
     border-width: 3px;
     border-style: solid;
+    cursor: pointer;
 }
 .Name_Header-div{
     display: flex;
