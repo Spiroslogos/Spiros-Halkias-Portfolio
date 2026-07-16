@@ -1,35 +1,27 @@
-/*document.getElementById('togglegalleryfrance').addEventListener('click', function() {
-    document.getElementById('galleryfrance').classList.toggle('galleryshow')
-});
-document.getElementById('togglegalleryfrance2').addEventListener('click', function() {
-    document.getElementById('galleryfrance').classList.toggle('galleryshow')
-});
-document.getElementById('togglegallerygreece').addEventListener('click', function() {
-    document.getElementById('gallerygreece').classList.toggle('galleryshow')
-});
-document.getElementById('togglegallerygreece2').addEventListener('click', function() {
-    document.getElementById('gallerygreece').classList.toggle('galleryshow')
-});
-document.getElementById('accesshome').addEventListener('click', function() {
-    window.location.href = "../Home Page/landingpage.html"
-});
-document.getElementById('accesshome2').addEventListener('click', function() {
-    window.location.href = "../Home Page/landingpage.html"
-});
-document.getElementById('togglegallerymtg').addEventListener('click', function(){
-    document.getElementById('gallerymtg').classList.toggle('galleryshow')
+document.getElementById('Toggle_MTG_Gallery').addEventListener('click', function(){
+    document.getElementById('MTG_Gallery').classList.toggle('Show_Gallery-div')
 })
-document.getElementById('togglegallerymtg2').addEventListener('click', function(){
-    document.getElementById('gallerymtg').classList.toggle('galleryshow')
+document.getElementById('Toggle_MTG_Gallery2').addEventListener('click', function(){
+    document.getElementById('MTG_Gallery').classList.toggle('Show_Gallery-div')
 })
-document.getElementById('togglegalleryspain').addEventListener('click', function(){
-    document.getElementById('galleryspain').classList.toggle('galleryshow')
+document.getElementById('Toggle_France_Gallery').addEventListener('click', function() {
+    document.getElementById('France_Gallery').classList.toggle('Show_Gallery-div')
+});
+document.getElementById('Toggle_France_Gallery2').addEventListener('click', function() {
+    document.getElementById('France_Gallery').classList.toggle('Show_Gallery-div')
+});
+document.getElementById('Toggle_Greece_Gallery').addEventListener('click', function() {
+    document.getElementById('Greece_Gallery').classList.toggle('Show_Gallery-div')
+});
+document.getElementById('Toggle_Greece_Gallery2').addEventListener('click', function() {
+    document.getElementById('Greece_Gallery').classList.toggle('Show_Gallery-div')
+});
+document.getElementById('Toggle_Spain_Gallery').addEventListener('click', function(){
+    document.getElementById('Spain_Gallery').classList.toggle('Show_Gallery-div')
 })
-document.getElementById('togglegalleryspain2').addEventListener('click', function(){
-    document.getElementById('galleryspain').classList.toggle('galleryshow')
+document.getElementById('Toggle_Spain_Gallery2').addEventListener('click', function(){
+    document.getElementById('Spain_Gallery').classList.toggle('Show_Gallery-div')
 })
-
-*/
 document.getElementById('Toggle_Portugal_Gallery').addEventListener('click', function(){
     document.getElementById('Portugal_Gallery').classList.toggle('Show_Gallery-div')
 })

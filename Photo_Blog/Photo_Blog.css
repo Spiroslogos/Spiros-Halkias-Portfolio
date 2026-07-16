@@ -5,6 +5,9 @@ p{
 .Title_Margin-p{
     margin-top: 40px;
 }
+.Gallery_Text_Margin-p{
+    margin-top: 0px;
+}
 .Icon_Holder-div{
     display: grid;
     grid-template-rows: 1fr;
@@ -94,63 +97,48 @@ p{
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
-
-.text{
-    font-family: cairo;
-    line-height: 25px;
-}
-.lineheight-div{
-    margin-bottom: -10px;
-}
-
-.shows-div{
-    display: inline-block;
-}
-.shows-div p:is(.italictext) {
-    border-bottom: 2px solid black;
-    padding-bottom: 10px;
-}
-.library-div{
-    margin: 0px 0px 0px 25px;
-    display: inline-block;
-}
-.containing-div{
+.Shows_Media_MTG-div{
     grid-template-columns: 1fr 2fr;
     display: grid;
 }
-.indent-div{
+.Shows-div{
+    display: inline-block;
+}
+.Shows-div p:is(.Italic_Text-p){
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.Media-div{
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+}
+.Indent-div{
     margin: 0px 0px 0px 25px;
 }
-.memorydiv{
-    display: grid;
-    grid-template-columns: 1fr 7fr;
-}
-.memoryimg{
-    border-style: solid;
-    border-width: 2px;
-    object-fit: cover;
-    margin: 15px 0px 15px 0px;
-    vertical-align: top;
-}
-.mimg1{
+.MTG-button{
+    padding: 0px;
     width: 300px;
-    height: auto;
+    height: 418px;
+    display: block;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
 }
-.mimg2{
-    width: auto;
-    height: 400px;
+.MTG_Gallery-img{
+    opacity: 0.5;
+    position: absolute;
+    width: 297px;
+    height: 415px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
 }
-.mimg3{
-    width: 400px;
-    height: auto;
+.MTG_Layout-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
-.mtgimg{
+.MTG_Image-img{
     object-fit: contain;
     height: auto;
     width: 300px;
@@ -161,32 +149,14 @@ p{
     border-width: 2px;
     border-style: solid;
 }
-.mtg-button{
-    padding: 0px;
-    width: 300px;
-    height: 418px;
-    display: block;
-    position: relative;
-    background: transparent;
-    cursor: pointer;
-}
-.mtg-imggallery{
-    opacity: 0.5;
-    position: absolute;
-    width: 297px;
-    height: 415px;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
-}
-.underline{
+.Text_Underline-p{
     width: 300px;
     margin-left: 5px;
     padding-bottom: 15px;
     border-radius: 2px;
     border-bottom: solid;
 }
-.mtgimgbuttonhome{
+.MTG_Home-img{
     opacity: 0.5;
     position: absolute;
     width: 297px;
@@ -197,12 +167,7 @@ p{
     object-position: left;
     object-fit: cover;
 }
-.mtglayout{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-}
-.mtgbuttonhome{
+.MTG_Home-button{
     width: 300px;
     height: 418px;
     display: block;
@@ -214,3 +179,38 @@ p{
     background: transparent;
     cursor: pointer;
 }
+.Memorabilia-div{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.Memorabilia-img{
+    border-style: solid;
+    border-width: 2px;
+    object-fit: cover;
+    margin: 15px 0px 15px 0px;
+    vertical-align: top;
+}
+.Resize1-img{
+    width: 300px;
+    height: auto;
+}
+.Resize2-img{
+    width: auto;
+    height: 400px;
+}
+.Resize3-img{
+    width: 400px;
+    height: auto;
+}
+.Climbing_Text-p{
+    display: inline-block;
+}
+.Video_Link{
+    font-family: cairo;
+    line-height: 25px;
+}
+.Climbing_Height-div{
+    margin-bottom: -10px;
+    line-height: 25px;
+}
+
