@@ -1,4 +1,4 @@
-document.getElementById('togglegalleryfrance').addEventListener('click', function() {
+/*document.getElementById('togglegalleryfrance').addEventListener('click', function() {
     document.getElementById('galleryfrance').classList.toggle('galleryshow')
 });
 document.getElementById('togglegalleryfrance2').addEventListener('click', function() {
@@ -28,9 +28,11 @@ document.getElementById('togglegalleryspain').addEventListener('click', function
 document.getElementById('togglegalleryspain2').addEventListener('click', function(){
     document.getElementById('galleryspain').classList.toggle('galleryshow')
 })
-document.getElementById('togglegalleryportugal').addEventListener('click', function(){
-    document.getElementById('galleryportugal').classList.toggle('galleryshow')
+
+*/
+document.getElementById('Toggle_Portugal_Gallery').addEventListener('click', function(){
+    document.getElementById('Portugal_Gallery').classList.toggle('Show_Gallery-div')
 })
-document.getElementById('togglegalleryportugal2').addEventListener('click', function(){
-    document.getElementById('galleryportugal').classList.toggle('galleryshow')
+document.getElementById('Toggle_Portugal_Gallery2').addEventListener('click', function(){
+    document.getElementById('Portugal_Gallery').classList.toggle('Show_Gallery-div')
 })

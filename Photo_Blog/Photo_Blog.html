@@ -4,53 +4,65 @@
     <title>
         Photo Blog
     </title>
+    <link rel="stylesheet" href="../Global-CSS_Files/Global-Title.css">
+    <link rel="stylesheet" href="../Global-CSS_Files/Global-Text.css">
+    <link rel="stylesheet" href="../Global-CSS_Files/Global-Italic.css">
+    <link rel="stylesheet" href="../Global-CSS_Files/Global-Bold.css">
+
     <link rel="stylesheet" href="Photo_Blog.css">
-    <link rel="stylesheet" href="../Global-Title.css">
-    <link rel="stylesheet" href="../Global-Text.css">
-    <link rel="stylesheet" href="../Global-Italic.css">
-    <link rel="stylesheet" href="../Global-Bold.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo"> 
 </head>
 <body>
     <div class="Header_to_Home-div">
         <button class="Home_Button-button" id="Access_Home">
-            Spiros Halkias</button>
-        <p class="Title-p">
-            Photo Blog</p>
+            Spiros Halkias
+        </button>
+        <p class="Title-p Title_Margin-p">
+            Photo Blog
+        </p>
         <button class="Home_Button-button" id="Access_Home2">
-            Spiros Halkias</button>
+            Spiros Halkias
+        </button>
     </div>
 
     <div>
-        <p class="place">Portugal</p>
-        <p>Lisbon</p>
-        <p class="italictext">June 2026</p>
-        <div class="imageholder">
-                <img class="travel-img" loading="eager" fetchpriority="high" src="portugalimages/portugal1.avif">
-                <img class="travel-img" loading="eager" fetchpriority="high" src="portugalimages/portugal2.avif">
-                <img class="travel-img" loading="eager" fetchpriority="high" src="portugalimages/portugal3.avif">
-                <img class="travel-img" loading="eager" fetchpriority="high" src="portugalimages/portugal4.avif">
-                <button class="gallery-button" id="togglegalleryportugal">
-                        <img class="gallery-img" loading="eager" fetchpriority="high" src="portugalimages/portugalgallery.avif">
-                        <p class="gallery-p">View Gallery</p>
+        <p class="Bold_Text-p">
+            Portugal
+        </p>
+        <p>
+            Lisbon
+        </p>
+        <p class="Italic_Text-p">
+            June 2026
+        </p>
+        <div class="Icon_Holder-div">
+            <img class="Travel_Icons-img" loading="eager" fetchpriority="high" src="Portugal_Images/Portugal_Icon1.avif">
+            <img class="Travel_Icons-img" loading="eager" fetchpriority="high" src="Portugal_Images/Portugal_Icon2.avif">
+            <img class="Travel_Icons-img" loading="eager" fetchpriority="high" src="Portugal_Images/Portugal_Icon3.avif">
+            <img class="Travel_Icons-img" loading="eager" fetchpriority="high" src="Portugal_Images/Portugal_Icon4.avif">
+            <button class="Into_Gallery-button" id="Toggle_Portugal_Gallery">
+                    <img class="Into_Gallery-img" loading="eager" fetchpriority="high" src="Portugal_Images/Portugal_Gallery1.avif">
+                    <p class="Into_Gallery-p">View Gallery</p>
+            </button>
+        </div>
+        <div id="Portugal_Gallery" class="Hide_Gallery-div">
+            <div class="Gallery_Layout-div">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery1.avif">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery2.avif">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery3.avif">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery4.avif">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery5.avif">
+                <button class="Button_in_Gallery-button Into_Gallery-button" id="Toggle_Portugal_Gallery2">
+                    <img class="Gallery_Button_Image-img Into_Gallery-img" src="Filler_Image.avif">
+                    <p class="Into_Gallery-p">
+                        Back to Blog
+                    </p>
                 </button>
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery6.avif">
+                <img class="Image_in_Gallery-img" src="Portugal_Images/Portugal_Gallery7.avif">
             </div>
-
-            <div id="galleryportugal" class="galleryhide">
-                <div class="gallerylayout">
-                    <img class="imageingallery" src="portugalimages/portugalgallery.avif">
-                    <img class="imageingallery" src="portugalimages/portugalgallery2.avif">
-                    <img class="imageingallery" src="portugalimages/portugalgallery3.avif">
-                    <img class="imageingallery" src="portugalimages/portugalgallery4.avif">
-                    <img class="imageingallery" src="portugalimages/portugalgallery5.avif">
-                    <button class="gallery-button ingallerybutton" id="togglegalleryportugal2">
-                        <img class="gallery-img inbuttongallery-img" src="experienceimg.avif">
-                        <p class="gallery-p">Back to Blog</p>
-                    </button>
-                    <img class="imageingallery" src="portugalimages/portugalgallery6.avif">
-                    <img class="imageingallery" src="portugalimages/portugalgallery7.avif">
-                </div>
-            </div>
+        </div>
     </div>
 
     <div>
@@ -569,5 +581,6 @@
     </div>
 
     <script src="Photo_Blog.js"></script>
-    <script src="../../../lazyloading.js"></script>
+    <script src="../Global-JS-Files/Global-Access_Home.js"></script>
+    <script src="../Global-JS-Files/Global-Image_Properties.js"></script>
 </body>
