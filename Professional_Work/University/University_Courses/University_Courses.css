@@ -1,26 +1,25 @@
-.course-holder{
+.Course_Holder{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-
 }
-.course-container{
+.Course_Container{
     background-color: rgba(211, 209, 209, 0.70);
     width: 490px;
     height: 145px;
     border-radius: 25px;
     display: inline-block;
 }
-.textone-p{
+.Text_One-p{
     font-weight: bold;
     font-size: 24px;
     margin: 10px 10px 10px 10px;
 }
-.texttwo-p{
+.Text_Two-p{
     font-size: 15px;
     margin: 10px 10px 10px 10px;
 }
-.textthree-p{
+.Text_Three-p{
     font-size: 16px;
     margin: 10px 10px 10px 10px;
     font-style: italic;

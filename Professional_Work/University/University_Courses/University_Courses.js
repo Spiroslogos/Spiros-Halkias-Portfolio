@@ -145,19 +145,19 @@ let CourseHTML = '';
 
 courses.forEach((courses) => {
     CourseHTML +=
-    `<div class="course-container">
+    `<div class="Course_Container">
         <div class="text-div">
-            <p class="textone-p">
+            <p class="Text_One-p">
                 ${courses.name}
             </p>
-            <p class="texttwo-p">
+            <p class="Text_Two-p">
                 ${courses.obtain}
             </p>
-            <p class="textthree-p">
+            <p class="Text_Three-p">
                 ${courses.value}
             </p>
         </div>
     </div>`
 });
 
-document.getElementById('coursehome').innerHTML = CourseHTML;
+document.getElementById('Course_Home').innerHTML = CourseHTML;

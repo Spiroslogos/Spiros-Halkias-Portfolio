@@ -1,17 +1,9 @@
-.titles-p{
-    font-size: 20px;
-    font-weight: bold;
-}
-.caption-p{
-    display: inline-block;
-    font-style: italic;
-}
-.table-threecolumn{
+.Three_Column_Table{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.table-threecolumn p{
+.Three_Column_Table p{
     align-content: center;
     padding-left: 10px;
     width: 100%;
@@ -19,25 +11,24 @@
     border-width: 1px 0px 0px 1px;
     border-style: solid;
 }
-.table-threecolumn p.bottomtable-p{
+.Three_Column_Table p.Bottom_Row-p{
     border-width: 1px 0px 1px 1px;
     border-style: solid;
 }
-.table-threecolumn p.righttable-p{
+.Three_Column_Table p.Right_Column-p{
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
-.table-threecolumn p.bottomtable-p.righttable-p {
+.Three_Column_Table p.Bottom_Row-p.Right_Column-p{
     border-width: 1px 1px 1px 1px;
     border-style: solid;
 }
-
-.table-fourcolumn{
+.Four_Column_Table{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.table-fourcolumn p{
+.Four_Column_Table p{
     align-content: center;
     padding-left: 10px;
     width: 100%;
@@ -45,25 +36,24 @@
     border-width: 1px 0px 0px 1px;
     border-style: solid;
 }
-.table-fourcolumn p.bottomtable-p{
+.Four_Column_Table p.Bottom_Row-p{
     border-width: 1px 0px 1px 1px;
     border-style: solid;
 }
-.table-fourcolumn p.righttable-p{
+.Four_Column_Table p.Right_Column-p{
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
-.table-fourcolumn p.bottomtable-p.righttable-p {
+.Four_Column_Table p.Bottom_Row-p.Right_Column-p{
     border-width: 1px 1px 1px 1px;
     border-style: solid;
 }
-
-.table-fourcolumn2{
+.Four_Column_Table2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.table-fourcolumn2 p{
+.Four_Column_Table2 p{
     align-content: center;
     padding-left: 10px;
     width: 100%;
@@ -71,25 +61,24 @@
     border-width: 1px 0px 0px 1px;
     border-style: solid;
 }
-.table-fourcolumn2 p.bottomtable-p{
+.Four_Column_Table2 p.Bottom_Row-p{
     border-width: 1px 0px 1px 1px;
     border-style: solid;
 }
-.table-fourcolumn2 p.righttable-p{
+.Four_Column_Table2 p.Right_Column-p{
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
-.table-fourcolumn2 p.bottomtable-p.righttable-p {
+.Four_Column_Table2 p.Bottom_Row-p.Right_Column-p{
     border-width: 1px 1px 1px 1px;
     border-style: solid;
 }
-
-.table-fivecolumn{
+.Five_Column_Table{
     display: grid;
     grid-template-columns: 3fr 2fr 2fr 3fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-.table-fivecolumn p{
+.Five_Column_Table p{
     align-content: center;
     padding-left: 10px;
     width: 100%;
@@ -97,15 +86,14 @@
     border-width: 1px 0px 0px 1px;
     border-style: solid;
 }
-.table-fivecolumn p.bottomtable-p{
+.Five_Column_Table p.Bottom_Row-p{
     border-width: 1px 0px 1px 1px;
     border-style: solid;
 }
-.table-fivecolumn p.righttable-p{
+.Five_Column_Table p.Right_Column-p{
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
-.table-fivecolumn p.bottomtable-p.righttable-p {
-    border-width: 1px 1px 1px 1px;
+.Five_Column_Table p.Bottom_Row-p.Right_Column{
     border-style: solid;
 }

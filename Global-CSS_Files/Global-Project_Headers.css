@@ -1,0 +1,44 @@
+p{
+    font-family: cairo;
+    line-height: 25px;
+}
+.Main_Page-div{
+    margin: 0px 200px 0px 200px;
+}
+.Titles-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Captions-p{
+    display: inline-block;
+    font-style: italic;
+}
+.Extra_Info-div{
+    background-color: rgba(211, 209, 209, 0.70);
+    justify-items: center;
+    align-content: center;
+    height: 250px;
+    margin-bottom: 25px;
+}
+.Extra_Info-p{
+    width: 700px;
+    margin-top: -10px;
+    text-align: center;
+    font-style: italic;
+}
+.Links{
+    font-family: Cairo;
+    line-height: 5px;
+    display: block;
+    text-align: center;
+    width: 700px;
+    color: rgba(43, 43, 43, 0.7);
+}
+img, iframe{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+iframe{
+    border-bottom-width: 3px;
+}
