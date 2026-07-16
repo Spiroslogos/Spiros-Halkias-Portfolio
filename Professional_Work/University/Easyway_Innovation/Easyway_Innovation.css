@@ -1,41 +1,36 @@
-.quotes-p{
-    font-style: italic;
-}
-.splitcontainer-div{
+.Two_Column_Grid-div{
     display: grid;
     grid-template-columns: 1fr auto;
     margin-bottom: -20px;
 }
-.insplit{
-    margin: -20px 0px 0px 20px;
-}
-.stretchimage{
+.Resize1-img{
     height: 280px;
 }
-.shrinkimage{
+.Column2_Grid-div{
+    margin: -20px 0px 0px 20px;
+}
+.Resize2-img{
     width: 550px;
     margin-bottom: 20px;
 }
-.insplitleft{
+.Column1_Grid-div{
     margin: -20px 20px 20px 0px;
 }
-.shrinkimage2{
+.Resize3-img{
     height: 344px;
     margin-bottom: 40px;
     justify-self: right;
 }
-.sideimages{
+.Double_Images-div{
     display: flex;
     gap: 0px;
 }
-.shrinkimage3{
-    width: 550px;
-}
-.removeimageborder{
+.Remove_Right_Border{
     border-right-width: 0px;
 }
-.extrainfo-p{
-    margin-top: -100px;
-    margin-bottom: 50px;
-    
+.Resize4-img{
+    width:550px;
+}
+.Extra_Info_Margin-p{
+    margin: -100px 0px 50px 0px;
 }
