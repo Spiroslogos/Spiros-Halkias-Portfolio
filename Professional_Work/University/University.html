@@ -4,38 +4,76 @@
     <title>
         Professional Path
     </title>
+    <link rel="stylesheet" href="../../Global-CSS_Files/Global-Title.css">
+    <link rel="stylesheet" href="../../Global-CSS_Files/Global-Bold.css">
+    <link rel="stylesheet" href="../../Global-CSS_Files/Global-Italic.css">
+    <link rel="stylesheet" href="../../Global-CSS_Files/Global-Hidden_Div.css">
+
     <link rel="stylesheet" href="University.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo"> 
 </head>
 <body>
-
-    <div class="filteringheader-div">
-        <button class="homebutton-button" id="accesshome">
+    <div class="Header_to_Home-div Four_Column_Grid-div">
+        <button class="Home_Button-button" id="Access_Home">
             Spiros Halkias
         </button>
-        <p class="titlepagetext-p">
+        <p class="Title-p">
             University
         </p>
-        <input type="text" class="searchinput-input" placeholder="Type to search...">
-
-        <button class="filtering-button" id="accessfilter">
+        <input type="text" class="Search_Input-input" placeholder="Type to search...">
+        <button class="Filter-button" id="Access_Filter">
             Filter Projects
         </button>
     </div>
 
-    <div class="filterMenu" id="dropdownfilter">
-        <div class="flexfilter">
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Hardware</p></div>
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Software</p></div>
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Research</p></div>
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Design</p></div>
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Writing</p></div>
-            <div class="flexfilter-div"><input type="checkbox" class="typebuttons"><p class="typebuttons-p">Business</p></div>
+    <div class="Hidden-div" id="Filter_Menu">
+        <div class="Checkbox_Full_Grid-div">
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Hardware
+                </p>
+            </div>
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Software
+                </p>
+            </div>
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Research
+                </p>
+            </div>
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Design
+                </p>
+            </div>
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Writing
+                </p>
+            </div>
+            <div class="Checkbox_Grid-div">
+                <input type="checkbox" class="Checkbox-input">
+                <p class="Checkbox_Text-p">
+                    Business
+                </p>
+            </div>
         </div>
-        <p class="buttonstitle"> Showing projects matching any selected type </p>
-        <p class="slidertitle"> Group Size </p>
-        <input type="range" min="0" max="10" value="0" class="slider" id="memberslider" list="sliderMarks">
-                <datalist id="sliderMarks">
+        <p class="Button_Title-p">
+            Showing projects matching any selected type
+        </p>
+        <p class="Slider_Title-p">
+            Group Size
+        </p>
+        <input type="range" min="0" max="10" value="0" class="Slider-input" id="Group_Size_Slider" list="Slider_Marks">
+                <datalist id="Slider_Marks">
                     <option value="0"></option>
                     <option value="1"></option>
                     <option value="2"></option>
@@ -48,27 +86,51 @@
                     <option value="9"></option>
                     <option value="10"></option>
                 </datalist>
-                <div class="sliderMarks">
-                    <span>All</span>
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>  
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
+                <div class="Slider_Marks-div">
+                    <span>
+                        All
+                    </span>
+                    <span>
+                        1
+                    </span>
+                    <span>
+                        2
+                    </span>
+                    <span>
+                        3
+                    </span>  
+                    <span>
+                        4
+                    </span>
+                    <span>
+                        5
+                    </span>
+                    <span>
+                        6
+                    </span>
+                    <span>
+                        7
+                    </span>
+                    <span>
+                        8
+                    </span>
+                    <span>
+                        9
+                    </span>
+                    <span>
+                        10
+                    </span>
                 </div>
-        <button class="resetbutton">Reset</button>
+        <button class="Reset-button">
+            Reset
+        </button>
     </div>
 
-    <div class="allboxes-div projectscontainer-js" id="projectscontainer">
+    <div class="All_Projects-div" id="Project_Container">
     </div>
 
     <script src="University.js"></script>
-    <script src="../../../lazyloading.js"></script>
+    <script src="../../Global-JS-Files/Global-Image_Properties.js"></script>
 
 </body>
 </html>
