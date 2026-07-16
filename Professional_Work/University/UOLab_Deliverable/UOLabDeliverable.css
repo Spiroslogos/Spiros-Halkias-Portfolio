@@ -1,24 +1,17 @@
-.titles-p{
-    font-size: 20px;
-    font-weight: bold;
+.Extra_Info_Margin-p{
+    margin: -100px 0px 40px 0px;
 }
-.extrainfo-p{
-    margin: -40px 0px 40px 0px;
-}
-.splitcontainer-div{
+.Two_Column_Grid-div{
     display: grid;
     grid-template-columns: auto auto;
     justify-items: top;
 }
-.insplit{
+.Grid_Part-img{
     display: inline-block;
     width: 500px;
 }
-.insplit-p{
+.Grid_Part-p{
     display: inline-block;
     width: 600px;
     margin: 0px 0px 0px 20px;
-}
-.extrainfo-p{
-    margin: -100px 0px 40px 0px;
 }
