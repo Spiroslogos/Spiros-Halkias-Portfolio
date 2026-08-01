@@ -18,6 +18,16 @@ p{
 }
 .Resize1-img{
     margin-top: -5px;
-    height:400px;
+    height: 400px;
     width:auto;
+}
+.Resize2-img{
+    margin-top: -5px;
+    height: 344px;
+    width: auto;
+}
+.Resize3-img{
+    margin-top: -5px;
+    height: 344px;
+    width: auto;
 }
