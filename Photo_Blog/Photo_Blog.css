@@ -103,6 +103,7 @@ p{
 }
 .Shows-div{
     display: inline-block;
+    position: relative;
 }
 .Shows-div p:is(.Italic_Text-p){
     border-bottom: 2px solid black;
@@ -213,4 +214,9 @@ p{
     margin-bottom: -10px;
     line-height: 25px;
 }
-
+.Show_Number-p{
+    z-index: 500;
+    right: 0px;
+    position: absolute;
+    display: inline-block;
+}
