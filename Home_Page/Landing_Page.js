@@ -26,3 +26,7 @@ document.getElementById('Info_Button').addEventListener('click', function() {
     document.getElementById('Info_Info4').classList.toggle('Show_Button4')
     document.getElementById('Info_Info4').classList.toggle('Unhidden-div')
 });
+document.getElementById('Info_Button').addEventListener('click', function() {
+    document.getElementById('Info_Info5').classList.toggle('Show_Button5')
+    document.getElementById('Info_Info5').classList.toggle('Unhidden-div')
+});

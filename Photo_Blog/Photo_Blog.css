@@ -140,8 +140,8 @@ p{
     justify-items: center;
 }
 .MTG_Image-img{
-    object-fit: contain;
-    height: auto;
+    object-fit: fill;
+    height: 415px;
     width: 300px;
     display: block;
     margin: 5px;
