@@ -33,7 +33,7 @@ const projects = [
     type: ['Research','Writing']
     },
     {
-    image: 'Project_Images/UOlab_Image.avif',
+    image: 'Project_Images/UOLab_Image.avif',
     link: 'UOLab_Deliverable/UOLab_Deliverable.html',
     textone: 'UO Lab Deliverable // April 8th, 2026',
     texttwo: 'This was a mini group project made to analyze data collected previously. For the class Transport Processes, the students visited the UO Lab at Northeastern University and collected data from various pipes and pumps. With this data a small project was done to show ability in collection and analyzation of the data. The visit was made to introduce students into the equipment that will be used in chemical engineering lab.',
