@@ -6,6 +6,15 @@ document.getElementById('Access_Filter').addEventListener('click', function() {
 });
 const projects = [
     {
+    image:'Project_Images/University_Extracurriculars.avif',
+    link:'University_Extracurriculars/University_Extracurriculars.html',
+    textone:'University Extracurriculars',
+    texttwo:'This sections includes any clubs I was an active member in, as well as experiences or trips I had because of univeristy.',
+    textthree:'',
+    memberNumber: [0,1,2,3,4,5,6,7,8,9,10],
+    type:['Hardware', 'Software', 'Research', 'Design', 'Writing', 'Business']
+    },
+    {
     image:'Project_Images/University_Image.avif',
     link:'University_Courses/University_Courses.html',
     textone:'University Courses',
